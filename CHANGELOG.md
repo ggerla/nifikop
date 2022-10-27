@@ -2,6 +2,18 @@
 
 ### Added
 
+### Changed
+
+### Fixed Bugs
+
+### Deprecated
+
+### Removed
+
+## v0.15.0
+
+### Added
+
 - [PR #165](https://github.com/konpyutaika/nifikop/pull/165) - **[NifiParameterContext]** Add parameter context inheritance.
 
 ### Changed
@@ -10,9 +22,7 @@
 
 ### Fixed Bugs
 
-### Deprecated
-
-### Removed
+- [PR #189](https://github.com/konpyutaika/nifikop/pull/189) - **[Operator]** Fixed issue where nifikop's zookeeper init container would not tolerate multiple comma-delimited `host:port` pairs in the `NifiCluster.Spec.ZkAddress` configuration.
 
 ## v0.14.1
 
